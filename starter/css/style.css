@@ -10,8 +10,75 @@ body {
 }
 
 header {
-  text-align: center;
+  width: 100%;
 }
+
+header > h1 {
+  display: inline-block;
+}
+
+nav {
+  display: inline-block;
+  text-align: right;  
+}
+
+.hero-banner{
+  display: flex;
+  background-image: url(../images/02-hero-bg.jpg);
+ height: 80px;
+ object-fit: cover;
+ align-items: flex-end;
+ justify-content: flex-end; 
+}
+
+.work-grid {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 5px;
+  cursor: pointer;
+  display: grid;
+  align-content: end;
+}
+
+#test {
+  margin: 0px 5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 400px 200px 200px;
+  grid-template-areas: 
+  "a a"
+  "b c"
+  "d e";
+}
+
+#a{
+  grid-area: a;
+  /* height: 400px; */
+  background-image: url(../images/02-portfolio-4.jpg)
+}
+
+#b{
+  grid-area: b;
+  /* height: 200px; */
+  background-image: url(../images/02-portfolio-1.jpg);
+}
+
+#c{
+  grid-area: c;
+  background-image: url(../images/02-portfolio-2.jpg);
+}
+
+#d{
+  grid-area: d;
+  background-image: url(../images/02-portfolio-3.jpg);
+}
+
+#e{
+  grid-area: e;
+  background-image: url(../images/02-run-buddy.jpg);
+}
+
 
 .hero-banner{
   text-align: center;
@@ -20,7 +87,7 @@ header {
 main {
   display: grid;
   grid-template-columns: 25% 75%;
-  grid-template-rows: 300px 600px 300px;
+  grid-template-rows: 300px 800px 300px;
 }
 
 h1,
