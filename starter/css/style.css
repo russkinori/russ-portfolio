@@ -9,6 +9,20 @@ body {
   line-height: 1.5;
 }
 
+header {
+  text-align: center;
+}
+
+.hero-banner{
+  text-align: center;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 25% 75%;
+  grid-template-rows: 300px 600px 300px;
+}
+
 h1,
 h2,
 h3,
