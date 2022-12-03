@@ -11,7 +11,7 @@ body {
 
 header {
   background-color: aqua;
-  padding: 0;
+  /* padding: 0; */
 }
 
 header > h1 {
@@ -32,6 +32,7 @@ nav {
 
 nav a {
   padding-left: 25px;
+  text-decoration: underline;
 }
 
 .hero-banner{
@@ -54,7 +55,7 @@ div > h2 {
 
 .page-section {
   margin-top: 20px;
-  
+  margin-bottom: 20px;
 }
 
 .page-section h2 {
@@ -62,7 +63,7 @@ div > h2 {
     justify-content: flex-end;
     align-items: flex-end;
     margin-right: 20px;
-    font-size: 76px;
+    font-size: 70px;
     text-align: right;
     color: #053d6e;
     position: relative;
@@ -70,7 +71,7 @@ div > h2 {
     }
 
 .page-section p {
-  /* margin: 0px 5%; */
+  margin: 0px 2%;
 }
 
 #about {
@@ -95,8 +96,16 @@ div > h2 {
   align-content: end;
 }
 
+.work-grid h1 {
+  background-color: aqua;
+  position: relative;
+  bottom: 20px;
+  max-width: fit-content;
+  padding: 5px;
+}
+
 #test {
-  /* margin: 0px 5%; */
+  margin: 0px 2%;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 400px 200px 200px;
@@ -131,16 +140,21 @@ div > h2 {
   background-image: url(../images/02-run-buddy.jpg);
 }
 
-
-.hero-banner{
-  text-align: center;
-}
-
 main {
   display: grid;
   grid-template-columns: 25% 75%;
-  grid-template-rows: 300px 800px 300px;
+  grid-template-rows: 300px 800px 200px;
   gap: 20px;
+}
+
+#social {
+  display: flex;
+  align-items: center;
+  justify-content: space-around  ;
+}
+
+a {
+  text-decoration: none;
 }
 
 h1,
