@@ -52,6 +52,18 @@ div > h2 {
   margin-right: 50px;
 }
 
+.page-section {
+  margin-top: 20px;
+}
+
+#about {
+  border-right: solid darkblue;
+}
+
+#work {
+  border-right: solid darkblue;
+}
+
 .work-grid {
   background-position: center;
   background-size: cover;
@@ -107,6 +119,7 @@ main {
   display: grid;
   grid-template-columns: 25% 75%;
   grid-template-rows: 300px 800px 300px;
+  gap: 20px;
 }
 
 h1,
