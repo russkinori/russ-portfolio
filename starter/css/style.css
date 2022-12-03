@@ -37,10 +37,19 @@ nav a {
 .hero-banner{
   display: flex;
   background-image: url(../images/02-hero-bg.jpg);
- height: 80px;
+ height: 180px;
  object-fit: cover;
  align-items: flex-end;
  justify-content: flex-end; 
+}
+
+div > h2 {
+  display: inline-block;
+  background-color: azure;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 15px;
+  margin-right: 50px;
 }
 
 .work-grid {
