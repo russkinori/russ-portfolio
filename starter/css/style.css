@@ -54,6 +54,23 @@ div > h2 {
 
 .page-section {
   margin-top: 20px;
+  
+}
+
+.page-section h2 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-right: 20px;
+    font-size: 76px;
+    text-align: right;
+    color: #053d6e;
+    position: relative;
+    top: -20px;
+    }
+
+.page-section p {
+  /* margin: 0px 5%; */
 }
 
 #about {
@@ -61,6 +78,10 @@ div > h2 {
 }
 
 #work {
+  border-right: solid darkblue;
+}
+
+#contact {
   border-right: solid darkblue;
 }
 
@@ -75,7 +96,7 @@ div > h2 {
 }
 
 #test {
-  margin: 0px 5%;
+  /* margin: 0px 5%; */
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 400px 200px 200px;
