@@ -1,8 +1,13 @@
+:root {
+  
+  }
+}
 
 * {
   box-sizing: border-box;
 }
 
+/* styling for the body */
 body {
   margin: 0;
   padding: 0;
@@ -10,6 +15,7 @@ body {
   line-height: 1.5;
 }
 
+/* header styling */
 header {
   background-color: #0ad3dade;
   display: flex;
@@ -17,10 +23,12 @@ header {
   align-items: center;
 }
 
+/* h1 in header */
 header > h1 {
   padding: 5px 20px 5px 100px;
   background-color: azure;
 }
+
 /* navigation bar */
 nav {
   margin-right: 40px;
@@ -29,10 +37,12 @@ nav {
   list-style-type: none;
 }
 
+/* links within header */
 nav a {
   padding-left: 25px;
 }
 
+/* banner image */
 .hero-banner{
   display: flex;
   background-image: url(../images/02-hero-bg.jpg);
@@ -44,10 +54,11 @@ nav a {
   margin-bottom: 20px; 
 }
 
+/* banner text */
 .hero-banner h2 {
   background-color: azure;
   font-size: 50px;
-  font-weight: 100;
+  font-weight: 70;
   font-style: italic;
   padding: 0px 20px 0px 20px;
   margin-bottom: 15px;
@@ -60,10 +71,6 @@ main {
   grid-template-columns: 25% 75%;
   grid-template-rows: 200px 800px 150px;
   gap: 50px;
-}
-
-.page-section {
-  /* margin-top: 20px; */
 }
 
 .page-section h2 {
@@ -95,7 +102,6 @@ main {
 }
 
 .work-grid {
-  /* background-position: center; */
   background-size: cover;
   background-repeat: no-repeat;
   margin: 5px;
