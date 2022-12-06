@@ -69,7 +69,7 @@ nav a {
 main {
   display: grid;
   grid-template-columns: 25% 75%;
-  grid-template-rows: 200px 800px 150px;
+  grid-template-rows: 150px 800px 100px;
   gap: 50px;
 }
 
@@ -80,7 +80,7 @@ main {
     margin-right: 20px;
     font-size: 60px;
     text-align: right;
-    color: #053d6e;
+    color: var(--secondary-color);
     position: relative;
     top: -70px;
     }
@@ -90,15 +90,15 @@ main {
 }
 
 #about {
-  border-right: solid #00008b;
+  border-right: solid var(--secondary-color);
 }
 
 #work {
-  border-right: solid #00008b;
+  border-right: solid var(--secondary-color);
 }
 
 #contact {
-  border-right: solid #00008b;
+  border-right: solid var(--secondary-color);
 }
 
 .work-grid {
