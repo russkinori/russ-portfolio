@@ -110,44 +110,44 @@ main {
   background-color: aqua;
   /* position: relative; */
   bottom: 20px;
-  font-size: 36px;
+  font-size: 26px;
   max-width: fit-content;
   padding: 5px;
 }
 
-#test {
+#work-grid-content {
   margin-right: 8%;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 400px 200px 200px;
   grid-template-areas: 
-  "a a"
-  "b c"
-  "d e";
+  "surfers surfers"
+  "ideas tech"
+  "canvas runners";
 }
 
-#a{
-  grid-area: a;
+#surfers{
+  grid-area: surfers;
   background-image: url(../images/02-portfolio-4.jpg)
 }
 
-#b{
-  grid-area: b;
+#ideas{
+  grid-area: ideas;
   background-image: url(../images/02-portfolio-1.jpg);
 }
 
-#c{
-  grid-area: c;
+#tech{
+  grid-area: tech;
   background-image: url(../images/02-portfolio-2.jpg);
 }
 
-#d{
-  grid-area: d;
+#canvas{
+  grid-area: canvas;
   background-image: url(../images/02-portfolio-3.jpg);
 }
 
-#e{
-  grid-area: e;
+#runners{
+  grid-area: runners;
   background-image: url(../images/02-run-buddy.jpg);
 }
 
