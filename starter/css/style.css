@@ -31,7 +31,6 @@ nav {
 
 nav a {
   padding-left: 25px;
-  text-decoration: underline;
 }
 
 .hero-banner{
@@ -107,12 +106,17 @@ main {
 }
 
 .work-grid h4 {
-  background-color: aqua;
-  /* position: relative; */
-  bottom: 20px;
+  background-color: #0ad3dade;
+  position: relative;
+  bottom: -10px;
   font-size: 26px;
   max-width: fit-content;
   padding: 5px;
+}
+
+.work-grid a {
+  text-decoration: none;
+  color: black;
 }
 
 #work-grid-content {
@@ -155,10 +159,6 @@ main {
   display: flex;
   align-items: center;
   justify-content: space-around  ;
-}
-
-a {
-  text-decoration: none;
 }
 
 h1,
