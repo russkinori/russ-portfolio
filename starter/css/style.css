@@ -63,7 +63,6 @@ nav a {
   padding: 0px 20px 0px 20px;
   margin-bottom: 15px;
   margin-right: 50px;
-
 }
 
 main {
@@ -90,15 +89,15 @@ main {
 }
 
 #about {
-  border-right: solid darkblue;
+  border-right: solid #00008b;
 }
 
 #work {
-  border-right: solid darkblue;
+  border-right: solid #00008b;
 }
 
 #contact {
-  border-right: solid darkblue;
+  border-right: solid #00008b;
 }
 
 .work-grid {
